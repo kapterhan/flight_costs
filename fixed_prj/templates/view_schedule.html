@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>저장된 일정 조회</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 20px; 
+      background-color: #f2f2f2; 
+    }
+    .container { 
+      max-width: 1200px; 
+      margin: 0 auto; 
+      background: #fff; 
+      padding: 20px; 
+      border-radius: 8px; 
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    }
+    h2 { 
+      text-align: center; 
+    }
+    .schedule-block { 
+      margin-bottom: 30px; 
+      padding: 15px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      background-color: #e9ecef; 
+      position: relative;
+    }
+    .delete-btn-top-right {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+    .flight-table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      margin-top: 10px; 
+    }
+    .flight-table th, 
+    .flight-table td { 
+      border: 1px solid #aaa; 
+      padding: 5px; 
+      text-align: center; 
+      min-width: 90px; 
+    }
+    .button-group { 
+      text-align: center; 
+      margin-top: 20px; 
+    }
+    .button-group a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 0 10px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .button-group a:hover { 
+      background-color: #0056b3; 
+    }
+    .red-btn { 
+      background-color: #dc3545; 
+      color: #fff; 
+    }
+    .red-btn:hover { 
+      background-color: #c82333; 
+    }
+    .delete-btn { 
+      background-color: #dc3545; 
+      color: #fff; 
+    }
+    .delete-btn:hover { 
+      background-color: #c82333; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>{{ user_id }}님, 저장된 일정 조회</h2>
+    {% if schedules %}
+      {% for sched in schedules %}
+        <div class="schedule-block">
+          <a class="delete-btn delete-btn-top-right"
+             href="/delete_schedule?id={{ sched['id'] }}&userId={{ user_id }}"
+             onclick="return confirm('정말 삭제하겠습니까?');">
+            일정 삭제
+          </a>
+          
+          <p>
+            <strong>가는 날:</strong> {{ sched['departure_date'] }} &nbsp;&nbsp; 
+            <strong>오는 날:</strong> {{ sched['return_date'] }}
+          </p>
+          <p>
+            <strong>출발지:</strong> {{ sched['departure'] }} &nbsp;&nbsp; 
+            <strong>도착지:</strong> {{ sched['destination'] }}
+          </p>
+          <p>
+            <strong>인원:</strong> 성인 {{ sched['adult_count'] }}, 소아 {{ sched['child_count'] }}, 유아 {{ sched['infant_count'] }} &nbsp;&nbsp;
+            <strong>좌석 타입:</strong> {{ sched['seat_type'] }}
+          </p>
+          
+          {% if sched.flight_results %}
+            <h4>항공권 검색 결과 (최저가 10건)</h4>
+            <table class="flight-table">
+              <tr>
+                <th>항공사</th>
+                <th>출발시간<br>({{ sched['departure'] }})</th>
+                <th>도착시간<br>({{ sched['destination'] }})</th>
+                <th>항공사</th>
+                <th>출발시간<br>({{ sched['destination'] }})</th>
+                <th>도착시간<br>({{ sched['departure'] }})</th>
+                <th>가격(원)</th>
+                <th>변동률<br>(전시각대비)</th>
+                <th>검색시각</th>
+              </tr>
+              {% for flight in sched.flight_results[:10] %}
+                <tr>
+                  <td>
+                    <!-- 항공사 이름을 하이퍼링크로 처리 -->
+                    <a href="/view_flight_trend?schedule_id={{ sched['id'] }}&userId={{ user_id }}
+                       &flight_name1={{ flight.flight_name1 | urlencode }}
+                       &flight_time_s1={{ flight.flight_time_s1 | urlencode }}
+                       &flight_time_e1={{ flight.flight_time_e1 | urlencode }}
+                       &flight_name2={{ flight.flight_name2 | urlencode }}
+                       &flight_time_s2={{ flight.flight_time_s2 | urlencode }}
+                       &flight_time_e2={{ flight.flight_time_e2 | urlencode }}">
+                      {{ flight.flight_name1 }}
+                    </a>
+                  </td>
+                  <td>{{ flight.flight_time_s1 }}</td>
+                  <td>{{ flight.flight_time_e1 }}</td>
+                  <td>{{ flight.flight_name2 }}</td>
+                  <td>{{ flight.flight_time_s2 }}</td>
+                  <td>{{ flight.flight_time_e2 }}</td>
+                  <td>{{ "{:,}".format(flight.flight_cost|int) }}</td>
+                  <td>
+                    {% if flight.variation is not none %}
+                      {% if flight.variation >= 0 %}
+                        <span style="color:red;">+{{ flight.variation | round(2) }}%</span>
+                      {% else %}
+                        <span style="color:green;">{{ flight.variation | round(2) }}%</span>
+                      {% endif %}
+                    {% else %}
+                      -
+                    {% endif %}
+                  </td>
+                  <td>{{ flight.fetch_time }}</td>
+                </tr>
+              {% endfor %}
+            </table>
+          {% else %}
+            <p>아직 항공권 검색 결과가 없습니다.</p>
+          {% endif %}
+          
+          <div class="button-group">
+            <a href="/view_all_results?schedule_id={{ sched['id'] }}&userId={{ user_id }}">전체 조회하기</a>
+            <a class="red-btn" href="/view_lowest_price_trend?schedule_id={{ sched['id'] }}&userId={{ user_id }}">최저가 및 평균 추이</a>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>저장된 일정이 없습니다.</p>
+    {% endif %}
+    <div class="button-group">
+      <a href="/schedule?userId={{ user_id }}">돌아가기</a>
+    </div>
+  </div>
+</body>
+</html>
