@@ -1,0 +1,16 @@
+# 전날 데이터 기준으로 변동률 계산시 코드
+
+yesterday = current_time.date() - timedelta(days=1)
+yesterday_start = datetime.combine(yesterday, time.min)
+yesterday_end = datetime.combine(yesterday, time.max)
+
+
+
+yesterday_start.strftime("%Y-%m-%d %H:%M:%S"),
+yesterday_end.strftime("%Y-%m-%d %H:%M:%S")
+
+
+avg_yesterday = row['avg_price']
+variation = (current_price - avg_yesterday) / avg_yesterday * 100
+                    
+
