@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>일정 관리</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 50px; background-color: #f2f2f2; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1, h2 { text-align: center; }
+    .form-group { margin-bottom: 15px; }
+    label { display: block; margin-bottom: 5px; }
+    input[type="date"],
+    input[type="number"],
+    select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    .button-group { margin-top: 20px; text-align: center; }
+    .button-group button, .button-group a { padding: 10px 20px; margin: 0 10px; border: none; background-color: #28a745; color: #fff; border-radius: 4px; cursor: pointer; text-decoration: none; }
+    .button-group button:hover, .button-group a:hover { background-color: #218838; }
+    .button-group button.secondary { background-color: #17a2b8; }
+    .button-group button.secondary:hover { background-color: #138496; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>{{ user_id }}님, 안녕하세요!</h2>
+    <h1>일정 관리</h1>
+    <!-- 새 일정 생성을 POST로 보내 DB에 저장 -->
+    <form id="scheduleForm" method="post" action="/create_schedule">
+      <!-- userId를 hidden 필드에 저장 -->
+      <input type="hidden" id="userId" name="userId" value="{{ user_id }}">
+      <div class="form-group">
+        <label for="departureDate">가는 날</label>
+        <input type="date" id="departureDate" name="departureDate" required>
+      </div>
+      <div class="form-group">
+        <label for="returnDate">오는 날</label>
+        <input type="date" id="returnDate" name="returnDate" required>
+      </div>
+      <div class="form-group">
+        <label for="departure">출발지</label>
+        <select id="departure" name="departure" required>
+          <option value="">출발지를 선택하세요</option>
+          <option value="SEL">서울 (SEL)</option>
+          <option value="ICN">인천 (ICN)</option>
+          <option value="GMP">김포 (GMP)</option>
+          <option value="PUS">부산 (PUS)</option>
+          <option value="CJU">제주 (CJU)</option>
+          <option value="TYO">도쿄 (TYO)</option>
+          <option value="OSA">오사카 (OSA)</option>
+          <option value="FUK">후쿠오카 (FUK)</option>
+          <option value="SPK">삿포로 (SPK)</option>
+          <option value="OKA">오키나와 (OKA)</option>
+          <option value="NHA">나트랑 (NHA)</option>
+          <option value="DAD">다낭 (DAD)</option>
+          <option value="BKK">방콕 (BKK)</option>
+          <option value="MNL">마닐라 (MNL)</option>
+          <option value="CEB">세부 (CEB)</option>
+          <option value="DPS">발리 (DPS)</option>
+          <option value="PAR">파리 (PAR)</option>
+          <option value="LON">런던 (LON)</option>
+          <option value="ROM">로마 (ROM)</option>
+          <option value="BCN">바르셀로나 (BCN)</option>
+          <option value="ZRH">취리히 (ZRH)</option>
+          <option value="FRA">프랑크푸르트 (FRA)</option>
+          <option value="IST">이스탄불 (IST)</option>
+          <option value="TPE">타이베이 (TPE)</option>
+          <option value="HFG">홍콩 (HFG)</option>
+          <option value="MFM">마카오 (MFM)</option>
+          <option value="PVG">상하이 (PVG)</option>
+          <option value="UBN">울란바토르 (UBN)</option>
+          <option value="LAX">LA (LAX)</option>
+          <option value="HNL">하와이 (HNL)</option>
+          <option value="NYC">뉴욕 (NYC)</option>
+          <option value="YVR">밴쿠버 (YVR)</option>
+          <option value="GUM">괌 (GUM)</option>
+          <option value="SPN">사이판 (SPN)</option>
+          <option value="SYD">시드니 (SYD)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="destination">도착지</label>
+        <select id="destination" name="destination" required>
+          <option value="">도착지를 선택하세요</option>
+          <option value="SEL">서울 (SEL)</option>
+          <option value="ICN">인천 (ICN)</option>
+          <option value="GMP">김포 (GMP)</option>
+          <option value="PUS">부산 (PUS)</option>
+          <option value="CJU">제주 (CJU)</option>
+          <option value="TYO">도쿄 (TYO)</option>
+          <option value="OSA">오사카 (OSA)</option>
+          <option value="FUK">후쿠오카 (FUK)</option>
+          <option value="SPK">삿포로 (SPK)</option>
+          <option value="OKA">오키나와 (OKA)</option>
+          <option value="NHA">나트랑 (NHA)</option>
+          <option value="DAD">다낭 (DAD)</option>
+          <option value="BKK">방콕 (BKK)</option>
+          <option value="MNL">마닐라 (MNL)</option>
+          <option value="CEB">세부 (CEB)</option>
+          <option value="DPS">발리 (DPS)</option>
+          <option value="PAR">파리 (PAR)</option>
+          <option value="LON">런던 (LON)</option>
+          <option value="ROM">로마 (ROM)</option>
+          <option value="BCN">바르셀로나 (BCN)</option>
+          <option value="ZRH">취리히 (ZRH)</option>
+          <option value="FRA">프랑크푸르트 (FRA)</option>
+          <option value="IST">이스탄불 (IST)</option>
+          <option value="TPE">타이베이 (TPE)</option>
+          <option value="HFG">홍콩 (HFG)</option>
+          <option value="MFM">마카오 (MFM)</option>
+          <option value="PVG">상하이 (PVG)</option>
+          <option value="UBN">울란바토르 (UBN)</option>
+          <option value="LAX">LA (LAX)</option>
+          <option value="HNL">하와이 (HNL)</option>
+          <option value="NYC">뉴욕 (NYC)</option>
+          <option value="YVR">밴쿠버 (YVR)</option>
+          <option value="GUM">괌 (GUM)</option>
+          <option value="SPN">사이판 (SPN)</option>
+          <option value="SYD">시드니 (SYD)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="adultCount">성인(만 12세 이상) 인원</label>
+        <input type="number" id="adultCount" name="adultCount" min="1" value="1" required>
+      </div>
+      <div class="form-group">
+        <label for="childCount">소아(만 12세 미만) 인원</label>
+        <input type="number" id="childCount" name="childCount" min="0" value="0">
+      </div>
+      <div class="form-group">
+        <label for="infantCount">유아(24개월 미만) 인원</label>
+        <input type="number" id="infantCount" name="infantCount" min="0" value="0">
+      </div>
+      <div class="form-group">
+        <label for="seatType">좌석 타입</label>
+        <select id="seatType" name="seatType" required>
+          <option value="economy">일반석</option>
+          <option value="premiumEconomy">프리미엄 일반석</option>
+          <option value="business">비즈니스석</option>
+          <option value="first">일등석</option>
+        </select>
+      </div>
+      <div class="button-group">
+        <button type="submit">새 일정 생성</button>
+        <a class="secondary" href="/view_schedule?userId={{ user_id }}">기존 일정 조회하기</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // 날짜 유효성 설정: 오늘 이후의 날짜 선택, 가는 날 선택 시 오는 날의 최소값 업데이트
+    const departureInput = document.getElementById('departureDate');
+    const returnInput = document.getElementById('returnDate');
+    const today = new Date().toISOString().split('T')[0];
+    departureInput.setAttribute('min', today);
+    departureInput.addEventListener('change', function() {
+      returnInput.setAttribute('min', departureInput.value);
+    });
+  </script>
+</body>
+</html>

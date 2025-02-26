@@ -1,0 +1,3625 @@
+nohup: ignoring input
+ * Serving Flask app 'app_test'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.40.36:5000
+[33mPress CTRL+C to quit[0m
+61.108.38.194 - - [25/Feb/2025 07:44:52] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:44:58] "GET /schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:45:04] "GET /view_schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:45:06] "GET /view_flight_trend?schedule_id=1&userId=이한희%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name1=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s1=15:00%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e1=16:40%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name2=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s2=17:00%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e2=19:10 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:45:09] "GET /view_lowest_price_trend?schedule_id=1&userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:47:18] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:47:21] "GET /schedule?userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:47:22] "GET /view_schedule?userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:47:33] "GET /view_lowest_price_trend?schedule_id=3&userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:47:49] "GET /view_schedule?userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:52:38] "GET /view_lowest_price_trend?schedule_id=3&userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 07:52:40] "GET /view_schedule?userId=아이유 HTTP/1.1" 200 -
+DEBUG:
+  flight_name1: 진에어
+  current_price: 378202
+  avg_previous_hour: 386317.1
+  variation: -2.1006318384560188
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 408244
+  avg_previous_hour: 415015.8
+  variation: -1.631696913707861
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 408319
+  avg_previous_hour: 415023.3
+  variation: -1.6154032797676632
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 408409
+  avg_previous_hour: 408409.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 453800
+  avg_previous_hour: 441300.0
+  variation: 2.8325402220711537
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 456397
+  avg_previous_hour: 466189.7
+  variation: -2.100582659805657
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 467400
+  avg_previous_hour: 467514.28571428574
+  variation: -0.02444539509870362
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 469500
+  avg_previous_hour: 467310.0
+  variation: 0.46863966103871096
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 474467
+  avg_previous_hour: 476000.2
+  variation: -0.3221007049997062
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 474467
+  avg_previous_hour: 476000.2
+  variation: -0.3221007049997062
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 117950
+  avg_previous_hour: 117950.0
+  variation: 0.0
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 364600
+  avg_previous_hour: 362850.0
+  variation: 0.4822929585228055
+========================================
+DEBUG:
+  flight_name1: 에어로케이
+  current_price: 365489
+  avg_previous_hour: 379697.7
+  variation: -3.7421085247553547
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368740
+  avg_previous_hour: 374134.0
+  variation: -1.4417294338392128
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368785
+  avg_previous_hour: 374068.5
+  variation: -1.4124418388610642
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 369779
+  avg_previous_hour: 392419.3
+  variation: -5.769415520592384
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 379675
+  avg_previous_hour: 390194.4
+  variation: -2.6959382297644514
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 380916
+  avg_previous_hour: 390765.8
+  variation: -2.5206402402666734
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 381006
+  avg_previous_hour: 386507.1
+  variation: -1.4232856265770997
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388374.7
+  variation: -1.8677066245561338
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388368.7
+  variation: -1.8661905555210838
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 364600
+  avg_previous_hour: 362850.0
+  variation: 0.4822929585228055
+========================================
+DEBUG:
+  flight_name1: 에어로케이
+  current_price: 365489
+  avg_previous_hour: 379697.7
+  variation: -3.7421085247553547
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368740
+  avg_previous_hour: 374134.0
+  variation: -1.4417294338392128
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368785
+  avg_previous_hour: 374068.5
+  variation: -1.4124418388610642
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 369779
+  avg_previous_hour: 392419.3
+  variation: -5.769415520592384
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 379675
+  avg_previous_hour: 390194.4
+  variation: -2.6959382297644514
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 380916
+  avg_previous_hour: 390765.8
+  variation: -2.5206402402666734
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 381006
+  avg_previous_hour: 386507.1
+  variation: -1.4232856265770997
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388374.7
+  variation: -1.8677066245561338
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388368.7
+  variation: -1.8661905555210838
+========================================
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 364600
+  avg_previous_hour: 362850.0
+  variation: 0.4822929585228055
+========================================
+DEBUG:
+  flight_name1: 에어로케이
+  current_price: 365489
+  avg_previous_hour: 379697.7
+  variation: -3.7421085247553547
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368740
+  avg_previous_hour: 374134.0
+  variation: -1.4417294338392128
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 368785
+  avg_previous_hour: 374068.5
+  variation: -1.4124418388610642
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 369779
+  avg_previous_hour: 392419.3
+  variation: -5.769415520592384
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 379675
+  avg_previous_hour: 390194.4
+  variation: -2.6959382297644514
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 380916
+  avg_previous_hour: 390765.8
+  variation: -2.5206402402666734
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 381006
+  avg_previous_hour: 386507.1
+  variation: -1.4232856265770997
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388368.7
+  variation: -1.8661905555210838
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 381121
+  avg_previous_hour: 388374.7
+  variation: -1.8677066245561338
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+220.118.232.172 - - [25/Feb/2025 08:15:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [25/Feb/2025 08:48:55] "GET /view_lowest_price_trend?schedule_id=3&userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:49:03] "GET /view_schedule?userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:49:04] "GET /schedule?userId=아이유 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:49:13] "GET /schedule?userId=이우혁 HTTP/1.1" 200 -
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 361800
+  avg_previous_hour: 370688.3333333333
+  variation: -2.397791496000678
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 364600
+  avg_previous_hour: 366366.6666666667
+  variation: -0.4822127194977762
+========================================
+DEBUG:
+  flight_name1: 에어로케이
+  current_price: 364892
+  avg_previous_hour: 369291.44444444444
+  variation: -1.1913204355608304
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 376100
+  avg_previous_hour: 370731.1111111111
+  variation: 1.4481894634625838
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 381000
+  avg_previous_hour: 389755.55555555556
+  variation: -2.246422258965735
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 383900
+  avg_previous_hour: 383900.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 383900
+  avg_previous_hour: 384544.44444444444
+  variation: -0.1675864659481621
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 389548
+  avg_previous_hour: 373580.77777777775
+  variation: 4.274101659406109
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 390300
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 392105
+  avg_previous_hour: 384705.0
+  variation: 1.9235518124277045
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 203300
+  avg_previous_hour: 190100.0
+  variation: 6.943713834823777
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 308300
+  avg_previous_hour: 406600.0
+  variation: -24.176094441711758
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 323300
+  avg_previous_hour: 307833.3333333333
+  variation: 5.024363833243103
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 421400
+  avg_previous_hour: 401800.0
+  variation: 4.878048780487805
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 425400
+  avg_previous_hour: 403400.0
+  variation: 5.4536440257808625
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+61.108.38.194 - - [25/Feb/2025 08:49:16] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:49:25] "GET /view_lowest_price_trend?schedule_id=11&userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:49:31] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:58:19] "GET /view_lowest_price_trend?schedule_id=11&userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:58:21] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:58:38] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:58:42] "GET /schedule?userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 08:58:47] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 525236.5555555555
+  variation: -3.1293624523468586
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 509000
+  avg_previous_hour: 516388.8888888889
+  variation: -1.4308768154921976
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 203300
+  avg_previous_hour: 190100.0
+  variation: 6.943713834823777
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 308300
+  avg_previous_hour: 406600.0
+  variation: -24.176094441711758
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 323300
+  avg_previous_hour: 307833.3333333333
+  variation: 5.024363833243103
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 421400
+  avg_previous_hour: 401800.0
+  variation: 4.878048780487805
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 425400
+  avg_previous_hour: 403400.0
+  variation: 5.4536440257808625
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 525236.5555555555
+  variation: -3.1293624523468586
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 509000
+  avg_previous_hour: 516388.8888888889
+  variation: -1.4308768154921976
+========================================
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 525236.5555555555
+  variation: -3.1293624523468586
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509200
+  avg_previous_hour: 509200.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 532626.6666666666
+  variation: -4.135479510351208
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 511252.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 511252.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 피치항공
+  current_price: 515928
+  avg_previous_hour: 539453.5555555555
+  variation: -4.360997404369268
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 518600
+  avg_previous_hour: 516388.8888888889
+  variation: 0.4281871974179691
+========================================
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 525236.5555555555
+  variation: -3.1293624523468586
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509200
+  avg_previous_hour: 509200.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 532626.6666666666
+  variation: -4.135479510351208
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 511252.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 511252.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 피치항공
+  current_price: 515928
+  avg_previous_hour: 539453.5555555555
+  variation: -4.360997404369268
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 518600
+  avg_previous_hour: 516388.8888888889
+  variation: 0.4281871974179691
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+61.108.38.194 - - [25/Feb/2025 10:20:47] "GET /schedule?userId=이우혁 HTTP/1.1" 200 -
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 490042
+  avg_previous_hour: 490042.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 490042
+  avg_previous_hour: 490042.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 494545.2
+  variation: 1.3658609971343343
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 514485.71428571426
+61.108.38.194 - - [25/Feb/2025 10:20:48] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 11:08:59] "GET /view_all_results?schedule_id=11&userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 11:09:02] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+  variation: -1.1051257844171662
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508900
+  avg_previous_hour: 508222.5
+  variation: 0.13330775398570507
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509200
+  avg_previous_hour: 509200.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509300
+  avg_previous_hour: 510410.0
+  variation: -0.21747222820869497
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 510600.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 512062.5
+  variation: -0.28560966678872207
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 501300.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 501300
+  avg_previous_hour: 496296.44444444444
+  variation: 1.0081788035287167
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508290
+  avg_previous_hour: 509255.55555555556
+  variation: -0.18960137891912068
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509200
+  avg_previous_hour: 509200.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 510600.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 510600.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 511835.71428571426
+  variation: -0.11404328955998229
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 511252
+  avg_previous_hour: 512160.0
+  variation: -0.17728834739144017
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+61.108.38.194 - - [25/Feb/2025 11:52:42] "GET /view_all_results?schedule_id=11&userId=이우혁 HTTP/1.1" 200 -
+61.108.38.194 - - [25/Feb/2025 11:52:44] "GET /view_schedule?userId=이우혁 HTTP/1.1" 200 -
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 이스타항공
+  current_price: 508800
+  avg_previous_hour: 508800.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 509200
+  avg_previous_hour: 509200.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 510600
+  avg_previous_hour: 510600.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 512676
+  avg_previous_hour: 511835.71428571426
+  variation: 0.1641709812021205
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 512676
+  avg_previous_hour: 512160.0
+  variation: 0.1007497656982193
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 514500
+  avg_previous_hour: 510600.0
+  variation: 0.763807285546416
+========================================
+DEBUG:
+  flight_name1: 피치항공
+  current_price: 515928
+  avg_previous_hour: 516793.77777777775
+  variation: -0.16752867681584935
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 516600
+  avg_previous_hour: 501300.0
+  variation: 3.052064631956912
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 516600
+  avg_previous_hour: 496296.44444444444
+  variation: 4.091013704175015
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+220.118.232.172 - - [25/Feb/2025 12:52:36] "GET /view_schedule?userId=이한희 HTTP/1.1" 200 -
+220.118.232.172 - - [25/Feb/2025 12:52:38] "GET /view_flight_trend?schedule_id=1&userId=이한희%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name1=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s1=15:00%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e1=16:40%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name2=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s2=11:05%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e2=13:10 HTTP/1.1" 200 -
+220.118.232.172 - - [25/Feb/2025 12:52:47] "GET /view_lowest_price_trend?schedule_id=1&userId=이한희 HTTP/1.1" 200 -
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 진에어
+  current_price: 408526
+  avg_previous_hour: 409955.55555555556
+  variation: -0.34870988725065205
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 435154
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 438279
+  avg_previous_hour: 438788.8888888889
+  variation: -0.1162036919804483
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 438279
+  avg_previous_hour: 438788.8888888889
+  variation: -0.1162036919804483
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 465822
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 467547
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 475900
+  avg_previous_hour: 488640.25
+  variation: -2.6072862397233956
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 476947
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 478712
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 481231
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 117950
+  avg_previous_hour: 117950.0
+  variation: 0.0
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 408526
+  avg_previous_hour: 409955.55555555556
+  variation: -0.34870988725065205
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 435154
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 438279
+  avg_previous_hour: 438788.8888888889
+  variation: -0.1162036919804483
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 438279
+  avg_previous_hour: 438788.8888888889
+  variation: -0.1162036919804483
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 465822
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 467547
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 에어서울
+  current_price: 475900
+  avg_previous_hour: 488640.25
+  variation: -2.6072862397233956
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 476947
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 478712
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 중국국제항공
+  current_price: 481231
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 220.118.232.172 - - [25/Feb/2025 12:52:48] "GET /view_schedule?userId=이한희 HTTP/1.1" 200 -
+에어부산
+  current_price: 117950
+  avg_previous_hour: 117950.0
+  variation: 0.0
+========================================
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+172.245.40.162 - - [25/Feb/2025 14:06:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03)àà?k¦\x08\x00')
+172.245.40.162 - - [25/Feb/2025 14:06:15] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03)àà?k¦\x08\x00 ]#[0m" HTTPStatus.BAD_REQUEST -
+172.245.40.162 - - [25/Feb/2025 14:06:16] code 400, message Bad request syntax ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x98\x97|VàYüß¢')
+172.245.40.162 - - [25/Feb/2025 14:06:16] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x98\x97|VàYüß¢[0m" HTTPStatus.BAD_REQUEST -
+172.245.40.162 - - [25/Feb/2025 14:06:16] "GET / HTTP/1.1" 200 -
+172.245.40.162 - - [25/Feb/2025 14:06:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+211.231.103.93 - - [25/Feb/2025 23:10:28] "GET / HTTP/1.1" 200 -
+20.150.202.57 - - [25/Feb/2025 23:13:52] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+80.82.70.133 - - [25/Feb/2025 23:26:13] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+80.82.70.133 - - [25/Feb/2025 23:26:13] "[35m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" HTTPStatus.BAD_REQUEST -
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+61.108.38.194 - - [26/Feb/2025 00:10:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 00:11:45] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:11:47] "GET /schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:11:49] "GET /view_schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:11:52] "GET /view_flight_trend?schedule_id=1&userId=이한희%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name1=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s1=15:00%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e1=16:40%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name2=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s2=11:05%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e2=13:10 HTTP/1.1" 200 -
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 진에어
+  current_price: 423500
+  avg_previous_hour: 416844.2
+  variation: 1.5967116730903268
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 437900
+  avg_previous_hour: 431046.5
+  variation: 1.5899676717013131
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 437900
+  avg_previous_hour: 431094.1
+  variation: 1.5787504398691663
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 458000
+  avg_previous_hour: 459663.8
+  variation: -0.3619601978663511
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 466500
+  avg_previous_hour: 469400.9
+  variation: -0.6180005193854599
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476252
+  avg_previous_hour: 476548.5
+  variation: -0.06221822123036795
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476341
+  avg_previous_hour: 475775.1111111111
+  variation: 0.11894041442548683
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476341
+  avg_previous_hour: 475715.5714285714
+  variation: 0.1314711161441323
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 476600
+  avg_previous_hour: 474809.5
+  variation: 0.377098604808876
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 476600
+  avg_previous_hour: 474695.9
+  variation: 0.40111995911487264
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 117950
+  avg_previous_hour: 117950.0
+  variation: 0.0
+========================================
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+61.108.38.194 - - [26/Feb/2025 00:53:07] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 00:53:12] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 00:53:14] "GET /schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:32] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 00:53:36] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 00:53:41] "[32mPOST /create_schedule HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:53:41] "GET /schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:44] "GET /view_schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:48] "GET /view_lowest_price_trend?schedule_id=14&userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:48] "GET /schedule?userId=상용 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:49] "GET /schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:53:53] "GET /view_all_results?schedule_id=14&userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:05] "GET /view_all_results?schedule_id=14&userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:18] "[32mPOST /create_schedule HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:54:18] "GET /schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:20] "GET /view_schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:25] "GET /view_lowest_price_trend?schedule_id=15&userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:32] "GET /view_lowest_price_trend?schedule_id=15&userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:34] "GET /view_lowest_price_trend?schedule_id=15&userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:36] "GET /view_all_results?schedule_id=14&userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:36] "GET /view_all_results?schedule_id=15&userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:38] "GET /view_schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:39] "GET /schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:46] "GET /view_schedule?userId=rarara HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:53] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:54:57] "GET /schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:13] "[32mPOST /create_schedule HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:55:14] "GET /schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:15] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:16] "GET /view_schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:19] "GET /view_all_results?schedule_id=16&userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:20] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:23] "[32mGET /delete_schedule?id=16&userId=sddsas HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:55:23] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:24] "GET /schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:32] "GET /schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:35] "GET /schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:38] "[32mPOST /create_schedule HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:55:38] "GET /schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:39] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:41] "GET /view_lowest_price_trend?schedule_id=17&userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:43] "GET /view_all_results?schedule_id=17&userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:44] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 00:55:46] "[32mGET /delete_schedule?id=17&userId=sddsas HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 00:55:46] "GET /view_schedule?userId=sddsas HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:11:18] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:11:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+61.108.38.194 - - [26/Feb/2025 01:11:24] "GET /schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:11:26] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:11:47] "[32mPOST /create_schedule HTTP/1.1[0m" 302 -
+61.108.38.194 - - [26/Feb/2025 01:11:47] "GET /schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:11:51] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:12:22] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:12:26] "GET /schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:12:28] "GET /view_schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:12:30] "GET /view_flight_trend?schedule_id=1&userId=이한희%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name1=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s1=15:00%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e1=16:40%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_name2=진에어%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_s2=11:05%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&flight_time_e2=13:10 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:17:34] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:17:54] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:20:22] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:20:47] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:20:53] "GET /schedule?userId=이승민 HTTP/1.1" 200 -
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 14 항공권 정보 저장 완료.
+ID:wow / info:1/1 항공권 정보 저장 완료.
+Schedule 15 항공권 정보 저장 완료.
+ID:rarara / info:1/1 항공권 정보 저장 완료.
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 14 항공권 정보 저장 완료.
+ID:wow / info:1/1 항공권 정보 저장 완료.
+Schedule 15 항공권 정보 저장 완료.
+ID:rarara / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 진에어
+  current_price: 423500
+  avg_previous_hour: 422223.1
+  variation: 0.30242305548891646
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 437900
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 진에어
+  current_price: 437900
+  avg_previous_hour: 435453.5
+  variation: 0.561828071194743
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476252
+  avg_previous_hour: 481596.6666666667
+  variation: -1.109780660165149
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476341
+  avg_previous_hour: 481969.44444444444
+  variation: -1.1678010938913819
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 476341
+  avg_previous_hour: 482618.9
+  variation: -1.300798621852568
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 481300
+  avg_previous_hour: 473382.0
+  variation: 1.672644925240081
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 485200
+  avg_previous_hour: 485663.1
+  variation: -0.09535416629346079
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 487800
+  avg_previous_hour: 490850.1
+  variation: -0.6213913371923478
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 488800
+  avg_previous_hour: 491110.0
+  variation: -0.4703630551200342
+========================================
+DEBUG:
+  flight_name1: 에어부산
+  current_price: 115340
+  avg_previous_hour: 117370.0
+  variation: -1.7295731447559002
+========================================
+Schedule 1 항공권 정보 저장 완료.
+ID:이한희 / info:1/2 항공권 정보 저장 완료.
+Schedule 3 항공권 정보 저장 완료.
+ID:아이유 / info:1/1 항공권 정보 저장 완료.
+Schedule 8 항공권 정보 저장 완료.
+ID:이한희 / info:2/2 항공권 정보 저장 완료.
+Schedule 9 항공권 정보 저장 완료.
+ID:http1995 / info:1/2 항공권 정보 저장 완료.
+Schedule 10 항공권 정보 저장 완료.
+ID:http1995 / info:2/2 항공권 정보 저장 완료.
+Schedule 11 항공권 정보 저장 완료.
+ID:이우혁 / info:1/1 항공권 정보 저장 완료.
+Schedule 13 항공권 정보 저장 완료.
+ID:ㅇ / info:1/1 항공권 정보 저장 완료.
+Schedule 14 항공권 정보 저장 완료.
+ID:wow / info:1/1 항공권 정보 저장 완료.
+Schedule 15 항공권 정보 저장 완료.
+ID:rarara / info:1/1 항공권 정보 저장 완료.
+Schedule 18 항공권 정보 저장 완료.
+ID:이승민 / info:1/1 항공권 정보 저장 완료.
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 307007
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 316105
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 316641
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 집에어
+  current_price: 317018
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 에어프레미아
+  current_price: 323983
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 329000
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 330503
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 337261
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 337261
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 338200
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 307007
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 316105
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 316641
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 집에어
+  current_price: 317018
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 에어프레미아
+  current_price: 323983
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 329000
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 제주항공
+  current_price: 330503
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 337261
+  avg_previous_hour: None
+  variation: None
+========================================
+DEBUG:
+  flight_name1: 티웨이항공
+  current_price: 337261
+  avg_previous_hour: None
+  variation: None
+61.108.38.194 - - [26/Feb/2025 01:20:55] "GET /view_schedule?userId=이승민 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 01:42:11] "GET /schedule?userId=이한희 HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 02:11:43] "GET /view_schedule?userId=wow HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 02:17:08] "GET / HTTP/1.1" 200 -
+61.108.38.194 - - [26/Feb/2025 02:17:12] "GET /schedule?userId=이한희 HTTP/1.1" 200 -
